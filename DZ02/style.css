@@ -1,0 +1,215 @@
+body {
+	background: lightgray;
+	margin: 2px 0;
+	font-family: sans-serif;
+}
+
+.wrapper {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+/*Header*/
+
+header {
+	height: 70px;
+	background-color: #0f1113;
+	border-bottom: 1px solid lightgray; 
+}
+
+.navbar {
+	height: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.logo {
+	text-decoration: none;
+	color: #3399ff;
+	font-weight: bold;
+	font-size: 24px;
+}
+
+.nav {
+	display: flex;
+	width: 600px;
+	justify-content: space-around;
+	align-content: center; 
+}
+
+.nav a {
+	text-decoration: none;
+	color: #3399ff;
+	font-size: 20px;
+}
+
+.nav a:hover {
+	color: #fff;
+}
+
+.nav li {
+	list-style-type: none;
+}
+
+.navbar form {
+	margin: 5px;
+}
+
+.search {
+	height: 20px;
+	border: 1px solid #3399ff;
+	border-radius: 3px;
+	padding-left: 5px; 
+}
+
+.search-btn {
+	height: 24px;
+	width: 70px;
+	border: 1px solid #3399ff;
+	border-radius: 3px;
+	background-color: white;
+	cursor: pointer;
+	color: #0f1113;
+	font-weight: 600;
+}
+
+.search-btn:hover {
+	background-color: #3399ff;
+	color: white;	 
+}
+
+/*Main*/
+
+/*Jumbo*/
+.jumbotron {
+	height: 500px;
+	background-image: url("https://www.safarihotelsnamibia.com/wp-content/uploads/2014/11/Safari-Court-Hotel-Pool.jpg");
+	background-repeat: no-repeat;
+ 	background-size: cover;
+ 	display: flex;
+ 	flex-direction: column;
+ 	justify-content: flex-end;
+ 	align-items: center;
+ 	color: #fff;
+ 	font-size: 30px;
+ 	text-shadow: 2px 2px black;
+}
+
+.jumbotron img {
+	max-width: 100%;
+}
+
+.btn {
+	height: 40px;
+	width: 150px;
+	background-color: transparent;
+	color: #fff;
+	border: 2px solid #fff;
+	border-radius: 4px;
+	font-size: 20px;
+	text-shadow: 2px 2px #000;
+	margin-bottom: 80px;
+}
+
+.btn:hover {
+	background-color: #3399ff;
+	border: #3399ff;
+	cursor: pointer;
+}
+
+/*Informations*/
+
+#informations {
+	display: flex;
+	justify-content: space-between; 
+}
+
+.info {
+	width: 33%;
+	height: 250px;
+	text-align: center;
+	background-color: #fff;
+	color: #0f1113;
+	border-top: 1px solid lightgray;
+	border-bottom: 4px solid lightgray;
+}
+
+.info li {
+	list-style-type: none;
+}
+/*Gallery*/
+
+#gallery {
+	display: flex;
+	background-color: #fff;
+	height: 500px;
+}
+
+.gallery-info {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 33%;
+}
+
+.pictures {
+	width: 100%;
+	overflow: hidden;
+}
+
+table {
+	width: 100%;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+th {
+	padding-bottom: 20px;
+}
+
+table tr td {
+	width: 100px;
+	height: 200px;
+	background-size: cover;
+}
+
+/*Footer*/
+
+footer {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 80px;
+	width: 1200px;
+	background-color: #0f1113;
+	color: lightgray;
+	position: relative;
+	bottom: 0;
+	margin-top: 1px; 
+}
+
+footer li {
+	list-style-type: none;
+}
+
+footer li a {
+	text-decoration: none;
+	color: lightgray;
+}
+
+footer li a:hover {
+	color: #007bff;
+}
+
+.fa {
+	color: lightgray;
+	margin-right: 30px;
+}
+
+.fa:hover {
+	color: #007bff;
+}
+
+
